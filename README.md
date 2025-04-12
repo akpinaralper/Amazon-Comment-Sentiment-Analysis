@@ -34,4 +34,4 @@ Gerekli kütüphaneleri yüklemek için:
 ```bash
 pip install selenium webdriver-manager torch transformers pandas matplotlib
 
-![image](https://github.com/user-attachments/assets/89803698-d43d-4d54-b289-1ce87c45f2ff)
+

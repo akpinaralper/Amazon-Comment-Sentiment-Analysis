@@ -24,7 +24,7 @@ Bu proje, Amazon Türkiye'deki ürün sayfalarından kullanıcı yorumlarını o
 
 Örnek Çıktı 2:
 ![duygu dagilimi2](https://github.com/user-attachments/assets/acebfb67-abb5-4591-9ea4-9e4f873e1026)
-![alt text](duygudagilimi2.png)
+
 Örnek Çıktı 3:
 ![duygu dagilimi3](https://github.com/user-attachments/assets/aef00bec-fa37-40ad-b366-55e5850a7a38)
 

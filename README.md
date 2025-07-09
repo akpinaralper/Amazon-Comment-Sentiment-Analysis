@@ -40,7 +40,6 @@ Bu proje, Amazon Türkiye'deki ürün sayfalarından kullanıcı yorumlarını o
 
 ```bash
 1.Depoyu klonlayın:
-bash
 git clone https://github.com/akpinaralper/Amazon-Comment-Sentiment-Analysis.git
 cd Amazon-Comment-Sentiment-Analysis
 bash```
@@ -49,10 +48,9 @@ bash```
 2.Gerekli kütüphaneleri yükleyin:
 
 pip install -r requirements.txt
-```bash
+
 
 veya:
-bash
 pip install selenium webdriver-manager torch transformers pandas matplotlib
 
 
@@ -60,9 +58,9 @@ pip install selenium webdriver-manager torch transformers pandas matplotlib
 
 Analiz yapmak istediğiniz ürünün Amazon linkini veya yorum verilerini belirtin.
 Yorumları çekmek için:
-bash
+
 python yorum_topla.py
 Duygu analizi yapmak için:
-bash
+
 python duygu_analiz.py
 Sonuçlar yorum_duygu_analizi.csv dosyasına ve grafikler olarak kaydedilir.

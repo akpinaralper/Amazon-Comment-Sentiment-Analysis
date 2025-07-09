@@ -40,6 +40,7 @@ pip install selenium webdriver-manager torch transformers pandas matplotlib
 duygudagilimi1.png
 
 
+
 Örnek Çıktı 2:
 ![duygu dagilimi2](https://github.com/user-attachments/assets/acebfb67-abb5-4591-9ea4-9e4f873e1026)
 

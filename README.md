@@ -37,13 +37,13 @@ pip install selenium webdriver-manager torch transformers pandas matplotlib
 
 Örnek Çıktı 1:
 
-![duygudagilimi1.png]
+![duygu dagilimi1](https://github.com/user-attachments/assets/27af9da7-4165-4202-b6c2-2ad6be19bdc3)
 
 
 
 Örnek Çıktı 2:
 ![duygu dagilimi2](https://github.com/user-attachments/assets/acebfb67-abb5-4591-9ea4-9e4f873e1026)
-
+![alt text](duygu dagilimi2.png)
 Örnek Çıktı 3:
 ![duygu dagilimi3](https://github.com/user-attachments/assets/aef00bec-fa37-40ad-b366-55e5850a7a38)
 

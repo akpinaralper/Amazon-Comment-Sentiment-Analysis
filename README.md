@@ -35,3 +35,13 @@ Gerekli kütüphaneleri yüklemek için:
 pip install selenium webdriver-manager torch transformers pandas matplotlib
 
 
+Örnek Çıktı 1:
+![duygu dagilimi1](https://github.com/user-attachments/assets/c4c2f86d-2dc0-4dc5-be4b-7643cc100a40)
+
+Örnek Çıktı 2:
+![duygu dagilimi2](https://github.com/user-attachments/assets/01dad2f7-4d06-4ad6-a17a-7785064d9c9f)
+
+Örnek Çıktı 3:
+![duygu dagilimi3](https://github.com/user-attachments/assets/158b76d0-87a8-4565-85ed-6dd37ce3d8b7)
+
+

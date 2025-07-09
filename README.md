@@ -38,14 +38,15 @@ Bu proje, Amazon Türkiye'deki ürün sayfalarından kullanıcı yorumlarını o
 
 ## ⚙️ Kurulum
 
-Depoyu klonlayın:
+1.Depoyu klonlayın:
+bash
 git clone https://github.com/akpinaralper/Amazon-Comment-Sentiment-Analysis.git
 cd Amazon-Comment-Sentiment-Analysis
 
 
 
 2.Gerekli kütüphaneleri yükleyin:
-bash
+```bash
 pip install -r requirements.txt
 ```bash
 

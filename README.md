@@ -42,6 +42,6 @@ pip install selenium webdriver-manager torch transformers pandas matplotlib
 ![duygu dagilimi2](https://github.com/user-attachments/assets/01dad2f7-4d06-4ad6-a17a-7785064d9c9f)
 
 Örnek Çıktı 3:
-![duygu dagilimi3](https://github.com/user-attachments/assets/158b76d0-87a8-4565-85ed-6dd37ce3d8b7)
+[duygu dagilimi3](https://github.com/user-attachments/assets/158b76d0-87a8-4565-85ed-6dd37ce3d8b7)
 
 

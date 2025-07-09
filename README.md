@@ -60,11 +60,26 @@ Bu proje, Amazon Türkiye'deki ürün sayfalarından kullanıcı yorumlarını o
 ---
 🚦 Kullanım
 
-Analiz yapmak istediğiniz ürünün Amazon linkini veya yorum verilerini belirtin.
-Yorumları çekmek için:
+Bu proje iki ana adımdan oluşur:
 
-python yorum_topla.py
-Duygu analizi yapmak için:
+Amazon ürün yorumlarının toplanması
 
-python duygu_analiz.py
-Sonuçlar yorum_duygu_analizi.csv dosyasına ve grafikler olarak kaydedilir.
+Bu yorumlara duygu analizi uygulanması
+
+Aşağıdaki adımları takip ederek analiz sürecini başlatabilirsiniz:
+
+1. Ürün bağlantısını hazırlayın
+Amazon Türkiye üzerinde yorumları bulunan bir ürün sayfasını açın.
+Tarayıcınızın adres çubuğundaki ürün bağlantısını kopyalayın. Örneğin:
+
+arduino
+[https://www.amazon.com.tr/dp/B0C1234567](https://www.amazon.com.tr/Multi-Let-Toprakl%C4%B1-Kablolu-Korumal%C4%B1-Metre-Beyaz/dp/B07CJHQ5MR/ref=zg_bs_c_home-improvement_d_sccl_1/257-7353852-7269744?pd_rd_w=88GfC&content-id=amzn1.sym.f39ea4be-1606-4425-a28a-b0b62417f306&pf_rd_p=f39ea4be-1606-4425-a28a-b0b62417f306&pf_rd_r=5RET3MH6MDCJS5WGCHCB&pd_rd_wg=o2sE6&pd_rd_r=7ee6f16a-a896-4f3f-835d-a7e0cfb7299f&pd_rd_i=B07CJHQ5MR&th=1)
+
+Program sizden Amazon hesabınıza giriş yapmanızı isteyecektir.
+Bu sırada, 30 saniyelik bir süre tanınır. Giriş yaptıktan sonra otomatik olarak yorumlar toplanacaktır.
+
+Analiz tamamlandıktan sonra:
+
+Tüm yorum ve duygu sonuçları yorum_duygu_analizi.csv dosyasına kaydedilir
+
+Yorumların dağılımını gösteren grafikler (bar, pasta ve yüzdelik harita) otomatik olarak açılır

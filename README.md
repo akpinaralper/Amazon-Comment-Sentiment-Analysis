@@ -42,7 +42,7 @@ Bu proje, Amazon Türkiye'deki ürün sayfalarından kullanıcı yorumlarını o
 1.Depoyu klonlayın:
    ```bash
    git clone https://github.com/akpinaralper/Amazon-Comment-Sentiment-Analysis.git
-   cd Amazon-Comment-Sentiment-Analysis
+   cd Amazon-Comment-Sentiment-Analysis ```
 
 
 2.Gerekli kütüphaneleri yükleyin:

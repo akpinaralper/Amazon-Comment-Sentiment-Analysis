@@ -1,28 +1,32 @@
+Aşağıda, yorum_duygu_analizi.csv dosyasındaki veriler tablo formatında görsel olarak sunulmuştur:
 
-Yorum,Duygu
-İyi ki almışım dediğim ürünlerden. Çok per kaplamıyor, iş görüyor.,Olumsuz
-Katlandığı için kısa raflara sığıyor. Sağlam görünüyor.,Olumsuz
-ödediği fiyatı hak ediyor ben çok memnun kaldım, malzemesi iyi derecede ve kaliteli,Olumlu
-Sadece kendim değil aileme de aldım bu ürünlerden. Evde az yer kaplaması her şeyden çok önemli,Tarafsız
-Ürün hızlı geldi ve paketlemesi güzeldi. Fakat ürün katlanırken plastiğin biraz yamuk olması sebebiyle tam katlanmıyor elinizle müdahale etmeniz gerekiyor. Onun dışında iyi bi...,Olumsuz
-Sorunsuz teslim edildi. Tertemiz ve hasarsızdı,Olumlu
-Çok beğendim, çok kullanışlı, sağlam ve ayrıca boyutu devasa olmamakla beraber çok ideal,Olumlu
-Çok kullanışlı, çok da kaliteli. Yer de kaplamıyor. Katlanması büyük avantaj. Çok teşekkür ederim,Olumlu
-Biraz ufak alırken ölçülerine dikkat edin onun dışında sağlam duruyor.,Olumsuz
-Daha büyük olsa daha iyi olabilirdi ağırlıkla kenarları katlanıyor,Olumsuz
-Ebat küçük ama işlevi kalitesi iyi,Olumsuz
-Küçülebilmesi çok işi e yaradı, kaldırmak dert olmuyor. Az daha derin olabilirdi sadece,Olumsuz
-Gayet kullanışlı,Olumsuz
-Her yerde de satılan bi ürün. Nerde ucuzsa ordan alın ekstra bi farkı yok sanırım. 1 2 yıldır kullanıyorum herhangi bi bozulma olmadı. Bi sepetle ilgili paylaşabileceğim daha ...,Olumlu
-Yer kaplamaması açısından mükemmel. Malzeme kaliteli, henüz bir deforme yok, uzun süre dayanır gibi duruyor,Olumsuz
-Yer kaplamaması adına katlanması güzel amacına hizmet ediyor,Olumsuz
-uzun vadede katlanabilir kısımları ne olur bilmiyorum ama malzeme kalitesi güzel gibi. umarım uzun vadede üzmez.,Olumsuz
-Cok Kaliteli bir camaşir sepeti, katlana biliyor, icinde hafif lastik kibi malzemeden yapilmiş onun üzerinnde katlaniyor, plastik malzemesi cok kalitelidir, cok dayanikli bir ...,Olumsuz
-Az yer kaplaması harika, materyal kaliteli.,Olumsuz
-Ürün görseldeki gibi , işlevsel ve güzel. Bir günden kısa bir sürede elime ulaştı. Güzel ambalajlanmış sapasağlam teslim aldım.,Olumsuz
-Gayet kullanışlı bir ürün...,Olumsuz
-Satıcı defolu ürün gönderdi taşınma sırasında olduğum için bu yorumu geç yapabildim zamanım olmadığı için iadeyle ugraşmadım,Olumsuz
-Birkac günde sapı kırıldı. Tutma yeri adı plastik.,Olumsuz
-Kırık olarak gönderilmiş. Hemen iadesini talep ettim.,Olumsuz
-SÜPER BİR ÜRÜN, KATLANIR OLMASI BÜYÜK KOLAYLIK,Olumlu
-Oldugu gibi, cok iyi urunm saglam, pratik.,Olumlu
+| Yorum                                                                                                                                                        | Duygu     |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| İyi ki almışım dediğim ürünlerden. Çok per kaplamıyor, iş görüyor.                                                                                           | Olumsuz   |
+| Katlandığı için kısa raflara sığıyor. Sağlam görünüyor.                                                                                                      | Olumsuz   |
+| ödediği fiyatı hak ediyor ben çok memnun kaldım, malzemesi iyi derecede ve kaliteli                                                                          | Olumlu    |
+| Sadece kendim değil aileme de aldım bu ürünlerden. Evde az yer kaplaması her şeyden çok önemli                                                               | Tarafsız  |
+| Ürün hızlı geldi ve paketlemesi güzeldi. Fakat ürün katlanırken plastiğin biraz yamuk olması sebebiyle tam katlanmıyor elinizle müdahale etmeniz gerekiyor... | Olumsu[...]|
+| Sorunsuz teslim edildi. Tertemiz ve hasarsızdı                                                                                                               | Olumlu    |
+| Çok beğendim, çok kullanışlı, sağlam ve ayrıca boyutu devasa olmamakla beraber çok ideal                                                                     | Olumlu    |
+| Çok kullanışlı, çok da kaliteli. Yer de kaplamıyor. Katlanması büyük avantaj. Çok teşekkür ederim                                                            | Olumlu    |
+| Biraz ufak alırken ölçülerine dikkat edin onun dışında sağlam duruyor.                                                                                       | Olumsuz   |
+| Daha büyük olsa daha iyi olabilirdi ağırlıkla kenarları katlanıyor                                                                                           | Olumsuz   |
+| Ebat küçük ama işlevi kalitesi iyi                                                                                                                           | Olumsuz   |
+| Küçülebilmesi çok işi e yaradı, kaldırmak dert olmuyor. Az daha derin olabilirdi sadece                                                                      | Olumsuz   |
+| Gayet kullanışlı                                                                                                                                            | Olumsuz   |
+| Her yerde de satılan bi ürün. Nerde ucuzsa ordan alın ekstra bi farkı yok sanırım. 1 2 yıldır kullanıyorum herhangi bi bozulma olmadı. Bi sepetle ilgili ... | Olumlu    |
+| Yer kaplamaması açısından mükemmel. Malzeme kaliteli, henüz bir deforme yok, uzun süre dayanır gibi duruyor                                                  | Olumsuz   |
+| Yer kaplamaması adına katlanması güzel amacına hizmet ediyor                                                                                                 | Olumsuz   |
+| uzun vadede katlanabilir kısımları ne olur bilmiyorum ama malzeme kalitesi güzel gibi. umarım uzun vadede üzmez.                                             | Olumsuz   |
+| Cok Kaliteli bir camaşir sepeti, katlana biliyor, icinde hafif lastik kibi malzemeden yapilmiş onun üzerinnde katlaniyor, plastik malzemesi cok kalitelidir...| Olumsuz   |
+| Az yer kaplaması harika, materyal kaliteli.                                                                                                                  | Olumsuz   |
+| Ürün görseldeki gibi , işlevsel ve güzel. Bir günden kısa bir sürede elime ulaştı. Güzel ambalajlanmış sapasağlam teslim aldım.                              | Olumsuz   |
+| Gayet kullanışlı bir ürün...                                                                                                                                | Olumsuz   |
+| Satıcı defolu ürün gönderdi taşınma sırasında olduğum için bu yorumu geç yapabildim zamanım olmadığı için iadeyle ugraşmadım                                 | Olumsuz   |
+| Birkac günde sapı kırıldı. Tutma yeri adı plastik.                                                                                                           | Olumsuz   |
+| Kırık olarak gönderilmiş. Hemen iadesini talep ettim.                                                                                                        | Olumsuz   |
+| SÜPER BİR ÜRÜN, KATLANIR OLMASI BÜYÜK KOLAYLIK                                                                                                               | Olumlu    |
+| Oldugu gibi, cok iyi urunm saglam, pratik.                                                                                                                   | Olumlu    |
+
+Not: Çok uzun olan veya devamı kesilen satırlar [...] ile kısaltılmıştır.

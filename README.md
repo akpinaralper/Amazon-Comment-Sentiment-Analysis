@@ -78,7 +78,6 @@ Aşağıdaki adımları takip ederek analiz sürecini başlatabilirsiniz:
       2.Program sizden Amazon hesabınıza giriş yapmanızı isteyecektir.
       Bu sırada, 30 saniyelik bir süre tanınır. Giriş yaptıktan sonra otomatik olarak yorumlar toplanacaktır.
 
-```bash
 Analiz tamamlandıktan sonra:
 
 Tüm yorum ve duygu sonuçları yorum_duygu_analizi.csv dosyasına kaydedilir

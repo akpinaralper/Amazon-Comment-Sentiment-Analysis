@@ -46,7 +46,7 @@ cd Amazon-Comment-Sentiment-Analysis
 
 
 2.Gerekli kütüphaneleri yükleyin:
-
+```bash
 pip install -r requirements.txt
 
 

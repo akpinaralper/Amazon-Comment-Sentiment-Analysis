@@ -37,7 +37,7 @@ pip install selenium webdriver-manager torch transformers pandas matplotlib
 
 Örnek Çıktı 1:
 
-![Duygu Dağılımı](main/duygudagilimi1.png)
+![Duygu Dağılımı]blob/main/duygudagilimi1.png
 
 
 Örnek Çıktı 2:

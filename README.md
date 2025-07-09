@@ -16,16 +16,12 @@ Bu proje, Amazon Türkiye'deki ürün sayfalarından kullanıcı yorumlarını o
 
 ---
 
-**Örnek Çıktı 1:**
+🖼️ **Örnek Çıktılar**
 
 ![duygu dagilimi1](https://github.com/user-attachments/assets/27af9da7-4165-4202-b6c2-2ad6be19bdc3)
 
-
-
-**Örnek Çıktı 2:**
 ![duygu dagilimi2](https://github.com/user-attachments/assets/acebfb67-abb5-4591-9ea4-9e4f873e1026)
 
-**Örnek Çıktı 3:**
 ![duygu dagilimi3](https://github.com/user-attachments/assets/aef00bec-fa37-40ad-b366-55e5850a7a38)
 
 
@@ -42,11 +38,29 @@ Bu proje, Amazon Türkiye'deki ürün sayfalarından kullanıcı yorumlarını o
 
 ## ⚙️ Kurulum
 
-Gerekli kütüphaneleri yüklemek için:
+Depoyu klonlayın:
+git clone https://github.com/akpinaralper/Amazon-Comment-Sentiment-Analysis.git
+cd Amazon-Comment-Sentiment-Analysis
 
+
+
+2.Gerekli kütüphaneleri yükleyin:
+bash
+pip install -r requirements.txt
 ```bash
+
+veya:
+bash
 pip install selenium webdriver-manager torch transformers pandas matplotlib
 
 
+🚦 Kullanım
 
-
+Analiz yapmak istediğiniz ürünün Amazon linkini veya yorum verilerini belirtin.
+Yorumları çekmek için:
+bash
+python yorum_topla.py
+Duygu analizi yapmak için:
+bash
+python duygu_analiz.py
+Sonuçlar yorum_duygu_analizi.csv dosyasına ve grafikler olarak kaydedilir.

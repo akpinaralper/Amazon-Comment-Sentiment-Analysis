@@ -110,7 +110,7 @@ for yorum in reviews[:50]:
 # 8. DataFrame oluştur
 df = pd.DataFrame(sonuclar, columns=["Yorum", "Duygu"])
 
-# 9. Tarafsız görünen ama olumlu içerikli yorumları Olumlu'ya çevir
+# 9. Tarafsız yorum düzeltme
 pozitif_kelime_seti = [
     "iyi", "güzel", "sorunsuz", "hızlı", "tavsiye", "beğendim", "memnun", "kaliteli",
     "şık", "fiyatına göre", "başarılı", "sağlam", "tatmin", "orijinal", "harika", "süper",
@@ -128,10 +128,10 @@ def yumuşak_duygu_duzelt(yorum, duygu):
 
 df["Duygu"] = df.apply(lambda row: yumuşak_duygu_duzelt(row["Yorum"], row["Duygu"]), axis=1)
 
-# 10. Görsel çıktı için yorumları kırp
+# 10. Uzun yorumları kısalt
 df['Yorum'] = df['Yorum'].apply(lambda x: x[:175] + "..." if len(x) > 175 else x)
 
-# 11. Terminal çıktısı ayarı
+# 11. Terminal çıktısı
 pd.set_option('display.max_colwidth', 175)
 pd.set_option('display.width', 120)
 pd.set_option('display.max_rows', 50)
@@ -139,14 +139,14 @@ pd.set_option('display.max_rows', 50)
 print("\n📊 Analiz Sonuçları (İlk 50 Yorum):\n")
 print(df.to_string(index=False))
 
-# 12. Grafik
+# 12. Grafikler için hazırlık
 duygular = ["Olumsuz", "Tarafsız", "Olumlu"]
 duygu_sayim = df['Duygu'].value_counts().reindex(duygular, fill_value=0)
-
 colors = ['red', 'gray', 'green']
+
+# 12.0 Klasik bar grafiği
 plt.figure(figsize=(7, 4))
 bars = plt.bar(duygu_sayim.index, duygu_sayim.values, color=colors)
-
 for bar in bars:
     yval = bar.get_height()
     plt.text(bar.get_x() + bar.get_width()/2, yval + 0.2, int(yval), ha='center', va='bottom', fontsize=12)
@@ -158,6 +158,47 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 plt.show()
 
+# 12.1 Yüzdelik bar grafiği - modern
+plt.style.use("ggplot")
+duygu_yuzde = (duygu_sayim / duygu_sayim.sum()) * 100
+
+fig, ax = plt.subplots(figsize=(8, 5), facecolor="#f9f9f9")
+bars = ax.bar(duygu_yuzde.index, duygu_yuzde.values, color=colors, edgecolor='black', linewidth=0.6)
+
+for bar in bars:
+    yval = bar.get_height()
+    ax.text(bar.get_x() + bar.get_width()/2, yval + 1, f"{yval:.1f}%", ha='center', va='bottom', fontsize=12, fontweight='bold')
+
+ax.set_title("Yüzdelik Duygu Dağılımı", fontsize=16, fontweight='bold', color="#333")
+ax.set_xlabel("Duygu", fontsize=13)
+ax.set_ylabel("Yüzde (%)", fontsize=13)
+ax.set_ylim(0, 100)
+ax.grid(axis='y', linestyle='--', alpha=0.4)
+ax.set_facecolor("#ffffff")
+fig.patch.set_facecolor("#f9f9f9")
+
+plt.tight_layout()
+plt.show()
+
+# 12.2 Pasta grafiği - modern
+fig, ax = plt.subplots(figsize=(6, 6), facecolor="#f9f9f9")
+
+wedges, texts, autotexts = ax.pie(
+    duygu_sayim,
+    labels=duygu_sayim.index,
+    colors=colors,
+    autopct='%1.1f%%',
+    startangle=140,
+    textprops={'fontsize': 12},
+    wedgeprops={'edgecolor': 'black', 'linewidth': 0.5}
+)
+
+ax.set_title("Duygu Dağılımı (Pasta Grafiği)", fontsize=15, fontweight='bold', color="#333")
+fig.patch.set_facecolor("#f9f9f9")
+plt.tight_layout()
+plt.show()
+
 # 13. CSV’ye kaydet
 df.to_csv("yorum_duygu_analizi.csv", index=False, encoding="utf-8-sig")
 print("\n📁 Sonuçlar 'yorum_duygu_analizi.csv' dosyasına kaydedildi.")
+

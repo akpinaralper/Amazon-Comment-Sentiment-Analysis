@@ -52,7 +52,7 @@ Bu proje, Amazon Türkiye'deki ürün sayfalarından kullanıcı yorumlarını o
 
 veya:
    ```bash
-   pip install selenium webdriver-manager torch transformers pandas matplotlib
+    pip install selenium webdriver-manager torch transformers pandas matplotlib
 
 
 🚦 Kullanım
